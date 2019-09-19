@@ -1,0 +1,546 @@
+@charset "utf-8";
+
+/* BASIC ELEMENTS */
+/* NB: The h1 style is set up separately on the "customise design page" */
+
+body {
+    background-color:#000;
+    background-repeat: repeat;
+    background-position: center;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12pt;
+}
+
+a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid #EF8F8D;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+.submit-button {
+    background-color: #FFFFCC;
+    margin-top: 10px;
+    border: 1px solid #DC5050;
+    height: 30px;
+}
+
+/* ----------- GENERAL ELEMENTS ---------------- */
+
+.main-table {
+    background-color: #FFF9F9;
+    background-repeat: no-repeat;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #FFB9B9;
+    border-right-color: #FFB9B9;
+    border-bottom-color: #FFB9B9;
+    border-left-color: #FFB9B9;
+    padding: 0px;
+}
+
+
+.main-content {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12pt;
+}
+
+.main-container {
+    /*background-color: #345022;*/
+    /*background-image: url(/tplcss/sadie/images/India4.jpg);*/
+    background-repeat: repeat-y;
+    background-position: 0px 0px;
+    width: 1100px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+    position: relative;
+
+    /*background: #c49266 url(images/paper.png) 0 0 no-repeat;*/
+    background: #c49266 url(http://shell.blacklabelcreative.com/tplcss/samplestyle/images/paper.png) 0 0 repeat;
+    /*background-size: cover;*/
+}
+
+.main-container > nobr {
+    display: none;
+}
+
+.main-container .top-thin-bar {
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 1100px;
+    /*top: 160px;*/
+    position: absolute;
+    background-position: 0px 0px;
+    text-align: right;
+    /*padding-top: 28px;*/
+    padding-top: 210px;
+    left: 0px;
+    /*margin-left: -20px;*/
+    font-size: 10pt;
+
+    /*background: url(images/header-tag.png) 0 0 no-repeat;*/
+    background: url(http://shell.blacklabelcreative.com/tplcss/samplestyle/images/header-tag.png) 0 0 no-repeat;
+}
+.main-container .right-panel .intro-panel {
+    width: 780px;
+    padding: 10px;
+    min-height: 333px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.main-footer {
+    /*width: 880px;*/
+    margin-right: auto;
+    margin-bottom: 0px;
+    background-repeat:no-repeat;
+    margin-left: auto;
+    /*height: 60px;*/
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #CCCCCC;
+    border-right-color: #FFB9B9;
+    border-bottom-color: #FFB9B9;
+    border-left-color: #FFB9B9;
+    /*padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;*/
+    clear: both;
+
+    padding: 15px 0 0;
+    width: 1100px;
+    height: 78px;
+    /*background: #fff url(images/footer.png) right bottom no-repeat;*/
+    background: #fff url(http://shell.blacklabelcreative.com/tplcss/samplestyle/images/footer.png) right bottom no-repeat;
+}
+.main-footer .left-links {
+    width:300px;
+    margin-left: 185px;
+    height:100%;
+    float:left;
+}
+.main-footer .right-logo {
+    width:400px;
+    float:right;
+    text-align:right;
+}
+.left-panel  {
+    width: 160px;
+    float: left;
+    margin-top: 250px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    }
+.right-panel  {
+    /*background: rgb(255, 255, 255); /* fallback color */
+    /*background: rgba(255, 255, 255, 0.8);*/
+    background: #fff;
+    width: 800px;
+    float: right;
+    margin-top: 250px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    color: #333333;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    }
+.leftmenu {
+    padding-left: 15px;
+    width: 200px;
+    padding-top: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12pt;
+}
+.clearbreak {
+    clear:both;
+    height:10px;
+    overflow:hidden;
+}
+.main-table-top-banner {
+    text-align: center;
+    background-repeat: no-repeat;
+    /*text-transform: uppercase;*/
+    font-family: Helvetica;
+    /*font-size: 14px;*/
+    font-size: 24px;
+    /*color: #fff;*/
+    color: #000;
+
+    display: inline-block;
+    width: 230px;
+    margin-top: -35px;
+    margin-right: 42px;
+}
+.main-table-top-banner strong {
+    position: absolute;
+    top: -999em;
+    left: -999em;
+}
+
+.main-table-top-banner-sub {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main-bottom-strip {
+    padding: 10px;
+    border-top: 1pt solid #CCCCCC;
+    background: #EEEEEE;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.main-bottom-strip a {
+    color: #666666;
+}
+.main-bottom-strip a:visited {
+    color: #666666;
+}
+.main-bottom-strip a:hover {
+    color: #AAAAAA;
+}
+
+.table-light-padding {
+    padding: 3px;
+    padding-bottom: 7px;
+}
+
+.redtext {color: #DC5050}
+
+.smaller-text-indent {
+    font-size: 10pt;
+    padding-left: 20px;
+}
+
+.text-indent {
+    padding-left: 20px;
+}
+
+.editingtextarea {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12pt;
+    background-color: #FFFFFF;
+    border: 1px dotted #E98E95;
+}
+
+
+
+/* Menu bar */
+
+.menu-box-top1 {
+    height: 10px;
+    width: 180px;
+    background-image: url(http://default.gettingmarried.co.uk/images/css-img/top-rounded.gif);
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-position: bottom;
+}
+
+.menu-box-middle {
+    background-color: #FFFFFF;
+    width: 160px;
+    margin: 0px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+
+.menu-box-middle p {
+    font-style: italic;
+    padding-bottom: 0px;
+}
+
+.menu-box-middle ul {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #996666;
+    letter-spacing: 2px;
+}
+
+.menu-box-middle li {
+    list-style: none;
+    margin-left: -30px;
+    margin-bottom: 4px;
+    font-style: none;
+    font-weight: bold;
+}
+
+.menu-box-middle li li {
+    text-transform: none;
+    margin-bottom: 4px;
+    font-weight: normal;
+    margin-left: -40px;
+    font-family: Georgia;
+    letter-spacing: 0px;
+}
+
+.menu-box-middle li ul {
+    padding-top: 0px;
+    background-repeat: no-repeat;
+}
+
+.menu-box-middle a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #b0c5bc;
+    line-height: 25px;
+}
+.menu-box-middle a:visited {
+    color: #000;
+}
+.menu-box-middle a:hover {
+    color: #EF8F8D;
+}
+
+.menu-box-bottom1 {
+    background-image: url(http://default.gettingmarried.co.uk/images/css-img/bottom-rounded.gif);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 10px;
+    margin: 0px;
+}
+
+
+
+/* ----------- FRONT PAGE ELEMENTS ------------- */
+
+/* Front three boxes */
+
+.front-page-boxes-wrapper {
+    float: left;
+    width: 800px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    height: 170px;
+}
+
+.front-page-boxes-wrapper em {
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-size: 14px;
+    color:#666666;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.front-page-boxes-wrapper p {
+    margin-top:0;
+}
+
+.front-page-boxes {
+    border: 1px dotted #FFA8A8;
+    padding: 10px;
+}
+
+.front-page-boxes a {
+    color: #3399CC;
+}
+.front-page-boxes a:visited {
+    color: #3399CC;
+}
+.front-page-boxes a:hover {
+    color: #3399CC;
+}
+.front-page-boxes-text {
+    font-size: 10pt;
+    line-height: 18px;
+    color: #000;
+}
+
+.front-page-boxes-left {
+    border: 5px solid white;
+    padding: 10px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    height: 100%;
+    background-color: #fff;
+    color: #0066FF;
+}
+
+.front-page-boxes-middle {
+    border: 5px solid white;
+    padding: 10px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.front-page-boxes-right {
+    border: 5px solid white;
+    padding: 10px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    height: 100%;
+    background: #fff;
+}
+
+
+/* ------------ OTHER SECTIONS --------------- */
+
+/* Gift list table */
+
+.giftlist-header-row {
+    background-color: #fff;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #666666;
+    border-right-color: #666666;
+    border-bottom-color: #FF9966;
+    border-left-color: #666666;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color:#000;
+}
+.giftlist-rowa {
+    font-size: 10pt;
+    background-color: #FCEEED;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #F7D0CC;
+    color: #000;
+}
+.giftlist-rowb {
+    font-size: 10pt;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    color: #000;
+}
+.giftlist-rowa-midmerge {
+    font-size: 10pt;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #F7D0CC;
+    color: #000;
+}
+.giftlist-rowb-midmerge {
+    font-size: 10pt;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    color: #000;
+}
+
+.giftlist-row-purchased {
+    font-size: 10pt;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #F7D0CC;
+    color: #000;
+}
+
+/* Other sections */
+
+.photo-align-right {
+    margin-left: 20px;
+    border: 5px white solid;
+    width: 200px;
+    height: 266px;
+    margin-top: 5px;
+}
+
+.photo-profiles {
+    border: 5px white solid;
+}
+
+.Couple-Name-Heading {
+    font-size: 48pt;
+    font-family: "Palace Script MT";
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.aboutus-cells {
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.aboutus-cells img {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.rsvpbox {
+    border: 2px dotted #FFA6A6;
+    padding: 10px;
+    background-color: #FFFFCC;
+}
